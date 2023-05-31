@@ -7,10 +7,9 @@ import { useCareers } from "./hooks/data";
 import tw from "twin.macro";
 
 function App() {
-  // TODO: msw
-  // TODO: react-spring
-  // TODO: css variables
-  // TODO: redux
+  // TODO: redux setting
+  // TODO: react-spring testing
+  // TODO: css variables setting
   // TODO: twin.macro vscode intellisense setting
 
   // console.log(process.env.NODE_ENV);
