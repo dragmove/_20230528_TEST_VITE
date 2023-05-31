@@ -2,7 +2,7 @@ import { rest } from "msw";
 
 export const getCareers = rest.get(
   "https://dragmove.github.io/nop/data/careers.json",
-  (req, res, ctx) => {
+  (_, res, ctx) => {
     return res(
       ctx.status(200),
       ctx.json([
